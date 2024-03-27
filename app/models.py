@@ -31,7 +31,7 @@ class PropertyProfile(db.Model):
         self.prop_price = prop_price
         self.prop_type = prop_type
         self.prop_location = prop_location
-        #self.prop_photo = prop_photo
+        
 
     def is_authenticated(self):
         return True
